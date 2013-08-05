@@ -73,3 +73,5 @@
 #import "QRootBuilder.h"
 
 #import "QTextField.h"
+
+#import "QuickDialogLocalization.h"

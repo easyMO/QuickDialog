@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F4A6BEC17AF907C0012483D /* QuickDialogLocalization.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F4A6BEA17AF907C0012483D /* QuickDialogLocalization.h */; };
+		0F4A6BED17AF907C0012483D /* QuickDialogLocalization.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F4A6BEB17AF907C0012483D /* QuickDialogLocalization.m */; };
 		194C3FC214EDF0510036C9E7 /* DOAutocompleteTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 194C3FC014EDF0510036C9E7 /* DOAutocompleteTextField.h */; };
 		194C3FC314EDF0510036C9E7 /* DOAutocompleteTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 194C3FC114EDF0510036C9E7 /* DOAutocompleteTextField.m */; };
 		2C542394145ADEBD0026A152 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D80B0E3913E052DF00FA85CA /* Foundation.framework */; };
@@ -194,6 +196,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F4A6BEA17AF907C0012483D /* QuickDialogLocalization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuickDialogLocalization.h; path = quickdialog/QuickDialogLocalization.h; sourceTree = SOURCE_ROOT; };
+		0F4A6BEB17AF907C0012483D /* QuickDialogLocalization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QuickDialogLocalization.m; path = quickdialog/QuickDialogLocalization.m; sourceTree = SOURCE_ROOT; };
 		194C3FC014EDF0510036C9E7 /* DOAutocompleteTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DOAutocompleteTextField.h; path = quickdialog/DOAutocompleteTextField.h; sourceTree = SOURCE_ROOT; };
 		194C3FC114EDF0510036C9E7 /* DOAutocompleteTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DOAutocompleteTextField.m; path = quickdialog/DOAutocompleteTextField.m; sourceTree = SOURCE_ROOT; };
 		2C542393145ADEBD0026A152 /* libQuickDialog.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libQuickDialog.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -666,6 +670,8 @@
 				D811F8BF13EC905B00E3922B /* QWebViewController.m */,
 				194C3FC014EDF0510036C9E7 /* DOAutocompleteTextField.h */,
 				194C3FC114EDF0510036C9E7 /* DOAutocompleteTextField.m */,
+				0F4A6BEA17AF907C0012483D /* QuickDialogLocalization.h */,
+				0F4A6BEB17AF907C0012483D /* QuickDialogLocalization.m */,
 			);
 			name = quickdialog;
 			path = quickform;
@@ -775,6 +781,7 @@
 				D8820B5116A246860070AE22 /* QCountdownElement.h in Headers */,
 				B45EC5681625E473007B96E2 /* QColorPickerElement.h in Headers */,
 				B45EC56E1625E473007B96E2 /* UIColor+ColorUtilities.h in Headers */,
+				0F4A6BEC17AF907C0012483D /* QuickDialogLocalization.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -944,6 +951,7 @@
 				D8820C7E16A3543F0070AE22 /* QImageTableViewCell.m in Sources */,
 				B45EC56A1625E473007B96E2 /* QColorPickerElement.m in Sources */,
 				B45EC5701625E473007B96E2 /* UIColor+ColorUtilities.m in Sources */,
+				0F4A6BED17AF907C0012483D /* QuickDialogLocalization.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
