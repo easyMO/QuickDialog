@@ -36,7 +36,7 @@
 
         CGSize valueSize = CGSizeZero;
         if (self.detailTextLabel.text!=nil)
-            valueSize = [self.detailTextLabel.text sizeWithFont:self.detailTextLabel.font];
+            valueSize = [self.detailTextLabel.text sizeWithFont:self.detailTextLabel.font constrainedToSize:self.contentView.bounds.size lineBreakMode:NSLineBreakByWordWrapping];
 
         CGRect labelFrame = self.textLabel.frame;
         self.textLabel.frame = CGRectMake(labelFrame.origin.x, labelFrame.origin.y,
