@@ -11,7 +11,7 @@
 @synthesize buttonAlignment = _buttonAlignment;
 @synthesize selectedBackgroundView = _selectedBackgroundView;
 @synthesize sectionTitleShadowColor = _sectionTitleShadowColor;
-
+@synthesize sectionFooterShadowColor = _sectionFooterShadowColor;
 
 - (QAppearance *)init {
     self = [super init];
@@ -32,6 +32,7 @@
     _sectionTitleFont = [UIFont boldSystemFontOfSize:17];
     _sectionTitleShadowColor = [UIColor colorWithWhite:1.0 alpha:1];
     _sectionTitleColor = [UIColor colorWithRed:0.298039 green:0.337255 blue:0.423529 alpha:1.000];
+    _sectionFooterShadowColor = [UIColor colorWithWhite:1.0 alpha:1];
 
     _sectionFooterFont = [UIFont systemFontOfSize:15];
     _sectionFooterColor = [UIColor colorWithRed:0.298039 green:0.337255 blue:0.423529 alpha:1.000];

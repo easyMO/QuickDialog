@@ -191,7 +191,7 @@
         label.font = appearance.sectionFooterFont;
         label.textColor = appearance.sectionFooterColor;
         label.numberOfLines = 0;
-        label.shadowColor = [UIColor colorWithWhite:1.0 alpha:1];
+        label.shadowColor = appearance.sectionFooterShadowColor;
         label.shadowOffset = CGSizeMake(0, 1);
 
         section.footerView = containerView;

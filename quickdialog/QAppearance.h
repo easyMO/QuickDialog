@@ -31,5 +31,6 @@
 @property(nonatomic) NSTextAlignment buttonAlignment;
 @property(nonatomic, strong) UIView *selectedBackgroundView;
 @property(nonatomic, strong) UIColor *sectionTitleShadowColor;
+@property(nonatomic, strong) UIColor *sectionFooterShadowColor;
 
 @end
