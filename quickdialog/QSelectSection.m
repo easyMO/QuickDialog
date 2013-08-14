@@ -93,6 +93,18 @@
     return selectedItems;
 }
 
+- (void)setSelectedItems:(NSArray *)items
+{
+    NSMutableArray *indexes = [NSMutableArray new];
+    for (id item in items) {
+        NSUInteger index = [_items indexOfObject:item];
+        if (index != NSNotFound) {
+            [indexes addObject:@(index)];
+        }
+    }
+    self.selectedIndexes = indexes;
+}
+
 - (void)createElements
 {
     for (NSUInteger i = 0; i < [_items count]; i++) {
