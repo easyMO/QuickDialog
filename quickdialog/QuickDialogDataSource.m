@@ -51,7 +51,8 @@
 }
 
 - (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath {
-    return [[_tableView.root getVisibleSectionForIndex:indexPath.section] isKindOfClass:[QSortingSection class]];
+    QSection *section = [_tableView.root getVisibleSectionForIndex:indexPath.section];
+    return [section isKindOfClass:[QSortingSection class]] && ((QSortingSection *)section).sortingEnabled;
 }
 
 
